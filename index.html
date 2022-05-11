@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- icones -->
+
+    <link rel="stylesheet" href="./assets/fonts/icomoon/style.css" />
+
     <!-- arquivo css-->
 
     <link rel="stylesheet" href="./style.css" />
@@ -23,7 +27,19 @@
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">beauty<span>salon</span>.</a>
-        <div class="menu">...</div>
+        <!-- MENU -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonial">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- MENU -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -32,26 +48,107 @@
         <div class="container grid">
           <div class="image">
             <img
-              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
               alt="Mulher sorrindo penteando outra mulher"
             />
           </div>
           <div class="text">
-            <h1>Saúde natural para os seus cabelos</h1>
+            <h1 class="title">Saúde natural para os seus cabelos</h1>
             <p>
-              Um salão exclusivo em São Paulo, especializado em tratamentos
+              Um salão exclusivo no Rio de Janeiro, especializado em tratamentos
               naturais.
             </p>
-            <a class="button" href="#">Agendar um horário</a>
+            <a class="button" href="#contact">Agendar um horário</a>
           </div>
         </div>
       </section>
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container"></div>
+      <!-- about -->
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+              alt="Mulheres cabeleireiras"
+            />
+          </div>
+          <div class="text">
+            <h1 class="title">Sobre nós</h1>
+            <p>
+              Concebido inicialmente sob um conceito ingles, hoje passa a se
+              posicionar como referência no mercado da beleza, em um ambiente
+              novo e moderno. Não por acaso, é localizado dentro da Praça do Rio
+              de Janeiro, um local privilegiado, seguro, arborizado e com
+              especialistas indicados para o segmento da beleza.
+            </p>
+            <br />
+            <p>
+              É um estúdio completo, com inspirações e tendências em Corte, Cor,
+              Luzes, Unhas, Penteados, Cílios e Makes. A Estética contempla
+              Facial, Corporal, Rádio Frequência para Flacidez, Lipocavitação
+              para Gordura Localizada e Celulites. Cortar o cabelo, fazer as
+              unhas, não é mais uma obrigação e sim uma experiência, podendo
+              usufruir também de uma deliciosa massagem relaxante. E para os
+              pequenos o corte é acompanhado de alegria e diversão, com
+              playground ao ar livre.
+            </p>
+            <br />
+            <p>
+              Percebendo que salões renomados tendem à padronização nos tipos e
+              cores de cabelos, também se posiciona como uma espécie de
+              impulsionador da adversidade, reconhecendo e celebrando o
+              diferente.
+            </p>
+          </div>
+        </div>
       </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Terapia completa para couro cabeludo e fios, protegendo todos os
+                tipos de cabelos, inclusive os longos e finos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                A nossa equipe é repleta de profissionais renomados, famosos por
+                lançarem tendências com cortes diferenciados e clássicos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                O beautysalon conta com diversos tratamentos naturais e
+                totalmente veganos, para qualquer tipo de cabelo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
     </main>
   </body>
+  <script src="./main.js"></script>
 </html>
