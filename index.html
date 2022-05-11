@@ -21,6 +21,13 @@
       rel="stylesheet"
     />
 
+    <!-- swiper -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <title>Beauty Salon</title>
   </head>
   <body>
@@ -33,7 +40,7 @@
             <li><a class="title" href="#home">Início</a></li>
             <li><a class="title" href="#about">Sobre</a></li>
             <li><a class="title" href="#services">Serviços</a></li>
-            <li><a class="title" href="#testimonial">Depoimentos</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
             <li><a class="title" href="#contact">Contato</a></li>
           </ul>
         </div>
@@ -44,6 +51,8 @@
     </header>
 
     <main>
+      <!-- home -->
+
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -65,7 +74,7 @@
 
       <div class="divider-1"></div>
 
-      <!-- about -->
+      <!-- services -->
 
       <section class="section" id="about">
         <div class="container grid">
@@ -108,6 +117,8 @@
 
       <div class="divider-2"></div>
 
+      <!-- services -->
+
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -148,7 +159,112 @@
       </section>
 
       <div class="divider-1"></div>
+
+      <!-- testimonials -->
+
+      <section class="section" id="testimonials">
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Eu sou cliente do Beautysalon há 5 anos
+                    e não troco por nada! Certamente meu cabelo mudou muito
+                    depois que comecei a tratar somente com produtos naturais e
+                    veganos deles. São profissionais qualificados. Queria
+                    conhece-los ha muitos anos atrás !
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/28.jpg"
+                      alt=""
+                    />
+                    Carla de Mello
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Conheci a Beautysalon há 9 anos e nunca
+                    mais procurei outro salão. Meu cabelo, a pele, e minha
+                    aparencia, mudou muito depois que comecei a fazer os
+                    tratamentos que a eles tem. Amo muitos as meninas que
+                    trabalham la, afinal são excelentes profissionais.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/3.jpg"
+                      alt=""
+                    />
+                    Jualiana Heckmann
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Por anos procurava um salão com um bom
+                    atendimento, e um serviço de otima qualidade. Por sorte
+                    apareceu a Beautysalon na minha vida !. Sou grata a todos
+                    que trabalham la, pois sempre conseguem entregar o pradão de
+                    beleza que procuro.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/11.jpg"
+                      alt=""
+                    />
+                    Bianca Pinheiro
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- contact -->
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <!-- titulo e texto -->
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Fale agora com a Beautysalon, queremos tirar suas dúvidas, ouvir
+              suas críticas e sugestões.
+            </p>
+            <!-- botao pro zap -->
+            <a class="button" href="https://wa.me/5547998164596" target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em Contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 47 99816-4596</li>
+              <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i> contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- sroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- main.js -->
   <script src="./main.js"></script>
 </html>
