@@ -456,3 +456,63 @@ nav.show div.icon-close {
 #contact ul li i {
   color: var(--base-color);
 }
+
+/*==== footer ====================== */
+
+footer {
+  background: var(--base-color);
+}
+
+footer .logo span {
+  color: var(--body-color);
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+footer .social a i {
+  color: var(--body-color);
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+footer .brand p {
+  color: var(--body-color);
+  margin-bottom: 0.75rem;
+}
+
+/* botao back to top */
+
+.back-to-top {
+  background: var(--base-color);
+  color: var(--text-color-light);
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+
+  padding: 0.7rem;
+  clip-path: circle();
+
+  font-size: 1.5rem;
+  line-height: 0;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.5s;
+  transform: translateY(100%);
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*==== responsivo =================== */
+
+@media (min-width: 1024px) {
+}
