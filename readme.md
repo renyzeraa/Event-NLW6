@@ -2,7 +2,7 @@
 
 Faaala dev!, seja bem-vindo a mais um projeto.
 
-Aconteceu o evento da NLW (next level week) Return 6ª edição com a RocketSeat 🚀, decidi participar para botar alguns dos conhecimentos em pratica e também para continuar adquirindo novos conhecimentos.
+Aconteceu o evento da NLW (next level week) Return 6ª edição com a RocketSeat 🚀, decidi participar para botar alguns dos meus conhecimentos em pratica e também para continuar adquirindo novos.
 
 ## <a href="https://renyzeraa.github.io/LP-beautysalon/" > Deploy 🛫 </a>
 
